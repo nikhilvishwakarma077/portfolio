@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur border-b border-zinc-800">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#home" className="font-bold text-2xl tracking-wide">
+        <a href="#home" className="font-bold text-xl md:2xl tracking-wide">
           Nikhil<span className="text-emerald-400"> Vishwakarma</span>
         </a>
 

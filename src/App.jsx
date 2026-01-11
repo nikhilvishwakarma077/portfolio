@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import { fullstackPojects } from "./data/project.js"
+import { frontendProjects } from "./data/project.js"
 
 
 const App = () => {
@@ -17,7 +19,8 @@ const App = () => {
         </section>
 
         <section id="projects">
-          <Projects />
+          <Projects projects={fullstackPojects} title={"Full Stack Projects"} />
+          <Projects projects={frontendProjects} title={"Frontend Projects"} />
         </section>
 
         <section id="about">

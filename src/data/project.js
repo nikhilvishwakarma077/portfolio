@@ -1,11 +1,13 @@
 import Headphones from "../assets/Headphones.png"
 import FlowSyncBanner from "../assets/FlowSyncBanner.png"
 import Eschool from "../assets/Eschool.png"
+import PhotoGallery from "../assets/PhotoGallery.png"
 
 export const images = {
     image1: Headphones,
     image2: FlowSyncBanner,
-    image3: Eschool
+    image3: Eschool,
+    image4: PhotoGallery
 }
 
 export const fullstackPojects = [
@@ -83,5 +85,19 @@ export const frontendProjects = [
         demo: "https://flowsyncaisolutions-landingpage-gj2.vercel.app/",
         image: FlowSyncBanner,
         githublink: "https://github.com/nikhilvishwakarma077/flowsyncaisolutions-landingpage"
+    },
+    {
+        id: "Photo GalleryReact App",
+        title: "Photo Gallery",
+        description: "This is a React Photo Gallery web application that fetches images from the Picsum API and displays them in a responsive grid layout. Users can search photos by author name in real time and mark images as favourites, with favourites managed using useReducer and persisted in localStorage.",
+        stack: ["React", "Tailwind"],
+        features: [
+            "No feature yet",
+
+        ],
+        github: "https://github.com/nikhilvishwakarma077/photo-gallery-react",
+        demo: "https://photo-gallery-react-zeta.vercel.app/",
+        image: PhotoGallery,
+        githublink: "https://github.com/nikhilvishwakarma077/photo-gallery-react"
     },
 ]

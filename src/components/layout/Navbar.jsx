@@ -20,8 +20,8 @@ const Navbar = () => {
           </a>
 
           <a
-            href="/resume.pdf"
-            // target="_blank"
+            href="https://drive.google.com/file/d/1IjTYM0A96oUtfdgqNHzkILryCU0XAdfj/view?pli=1"
+            target="_blank"
             className="px-4 py-2 rounded-lg bg-emerald-400 text-zinc-950 font-medium hover:bg-emerald-300 transition"
           >
             Resume

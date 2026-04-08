@@ -2,13 +2,9 @@ import Headphones from "../assets/Headphones.png"
 import FlowSyncBanner from "../assets/FlowSyncBanner.png"
 import Eschool from "../assets/Eschool.png"
 import PhotoGallery from "../assets/PhotoGallery.png"
+import Elementum from "../assets/Elementum.png"
 
-export const images = {
-    image1: Headphones,
-    image2: FlowSyncBanner,
-    image3: Eschool,
-    image4: PhotoGallery
-}
+
 
 export const fullstackPojects = [
     {
@@ -49,7 +45,7 @@ export const frontendProjects = [
         id: "ecommerce",
         title: "A Product Landingpage",
         description: "A Complete Responsive product purchase website using react + tailwind.",
-        stack: ["React", "Tailwind"],
+        stack: ["React", "Tailwind CSS"],
         features: [
             "checkout flow",
             "Order status",
@@ -63,7 +59,7 @@ export const frontendProjects = [
         id: "Education",
         title: "E-School",
         description: "A Complete Responsive E-learning website using ReactJS + Tailwind CSS + Framer-motion",
-        stack: ["React", "Tailwind", "Framer-motion"],
+        stack: ["React", "Tailwind CSS", "Framer-motion"],
         features: [
             "No features yet",
         ],
@@ -76,7 +72,7 @@ export const frontendProjects = [
         id: "SaaS (Product)",
         title: "FlowSync AI",
         description: "A modern SaaS landing page for an AI workflow automation platform (flowsyncaisolutions) designed to drive free trial, demo signups and chat bot preview.",
-        stack: ["React", "Tailwind"],
+        stack: ["React", "Tailwind CSS"],
         features: [
             "No feature yet",
 
@@ -90,7 +86,7 @@ export const frontendProjects = [
         id: "Photo GalleryReact App",
         title: "Photo Gallery",
         description: "This is a React Photo Gallery web application that fetches images from the Picsum API and displays them in a responsive grid layout. Users can search photos by author name in real time and mark images as favourites, with favourites managed using useReducer and persisted in localStorage.",
-        stack: ["React", "Tailwind"],
+        stack: ["React", "Tailwind CSS"],
         features: [
             "No feature yet",
 
@@ -99,5 +95,22 @@ export const frontendProjects = [
         demo: "https://photo-gallery-react-zeta.vercel.app/",
         image: PhotoGallery,
         githublink: "https://github.com/nikhilvishwakarma077/photo-gallery-react"
+    },
+    {
+        id: "elementum-react-website",
+        title: "Elementum Website",
+        description: "A pixel-perfect and fully responsive website built by converting a Figma design into a production-ready React application using Tailwind CSS. Focused on clean component structure, consistent spacing system, and accurate UI implementation across all screen sizes.",
+        stack: ["React", "Tailwind CSS"],
+        features: [
+            "Pixel-perfect UI implementation from Figma design",
+            "Fully responsive layout (mobile, tablet, desktop)",
+            "Reusable component-based architecture",
+            "Consistent spacing, typography, and layout system",
+            "Interactive hover states and smooth UI behavior"
+        ],
+        github: "https://github.com/nikhilvishwakarma077/elementum-frontend",
+        demo: "https://elementum-frontend.vercel.app/",
+        image: Elementum,
+        githublink: "https://github.com/nikhilvishwakarma077/elementum-frontend"
     },
 ]

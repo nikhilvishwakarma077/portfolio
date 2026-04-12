@@ -3,10 +3,30 @@ import FlowSyncBanner from "../assets/FlowSyncBanner.png"
 import Eschool from "../assets/Eschool.png"
 import PhotoGallery from "../assets/PhotoGallery.png"
 import Elementum from "../assets/Elementum.png"
+import Electromart from "../assets/Electromart.png"
 
 
 
 export const fullstackPojects = [
+    {
+        id: "ecommerce",
+        title: "MERN E-Commerce Platform",
+        description: "Scalable full-stack e-commerce platform with secure authentication, product management, cart system, and order processing.",
+        stack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Typescript", "TailwindCSS"],
+        features: [
+            "JWT authentication with protected routes",
+            "Role-based admin dashboard",
+            "Product CRUD with image support",
+            "Cart and checkout workflow",
+            "Order creation and order history tracking",
+            "RESTful API with Express & MongoDB",
+            "Responsive UI built with TailwindCSS"
+        ],
+        github: "https://github.com/nikhilvishwakarma077/electromart-ecommerce",
+        demo: "https://electromart-ecommerce-tau.vercel.app/",
+        image: Electromart,
+        githublink: "https://github.com/nikhilvishwakarma077/electromart-ecommerce"
+    },
     {
         id: "ecommerce",
         title: "MERN E-Commerce Platform",

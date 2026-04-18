@@ -4,6 +4,7 @@ import Eschool from "../assets/Eschool.png"
 import PhotoGallery from "../assets/PhotoGallery.png"
 import Elementum from "../assets/Elementum.png"
 import Electromart from "../assets/Electromart.png"
+import reactImg from "../assets/react.svg"
 
 
 
@@ -28,7 +29,7 @@ export const fullstackPojects = [
         githublink: "https://github.com/nikhilvishwakarma077/electromart-ecommerce"
     },
     {
-        id: "ecommerce",
+        id: "ecommerce2",
         title: "MERN E-Commerce Platform",
         description: "Full-stack e-commerce app with auth, cart, and orders.",
         stack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
@@ -55,7 +56,7 @@ export const fullstackPojects = [
         ],
         github: "https://github.com/yourname/dashboard",
         demo: "",
-        image: "https://themefisher.com/blog-thumb/bootstrap-admin-dashboard-templates.webp",
+        image: reactImg,
         githublink: "https://github.com/nikhilvishwakarma077/blogger"
     },
 ];

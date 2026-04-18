@@ -4,13 +4,13 @@ const Home = () => {
     return (
         <div className="max-w-6xl mx-auto px-4 py-20">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                MERN Stack <br />
-                <span className="text-emerald-400">Developer</span>
+                Full Stack <br />
+                <span className="text-emerald-400">Developer (MERN)</span>
             </h1>
 
             <p className="mt-6 max-w-xl text-zinc-400">
-                I build scalable, production-ready full-stack applications with clean
-                architecture and real-world features.
+                I build full-stack web applications using React, Node.js, and MongoDB,
+                focusing on real-world features like CRUD operation, authentication, and automation.
             </p>
 
             <div className="mt-8 flex gap-4">

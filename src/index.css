@@ -2,8 +2,13 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
   @apply bg-zinc-950 text-zinc-100 antialiased;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

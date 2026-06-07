@@ -1,14 +1,48 @@
 import Headphones from "../assets/Headphones.png"
 import FlowSyncBanner from "../assets/FlowSyncBanner.png"
-import Eschool from "../assets/Eschool.png"
+// import Eschool from "../assets/Eschool.png"
 import PhotoGallery from "../assets/PhotoGallery.png"
 import Elementum from "../assets/Elementum.png"
 import Electromart from "../assets/Electromart.png"
 import reactImg from "../assets/react.svg"
+import GamersHub from "../assets/GamersHub.png"
 
 
 
 export const fullstackPojects = [
+    {
+        id: "gamershub-platform",
+        title: "GamersHub",
+        description:
+            "A full-stack esports networking platform that helps gamers create professional player profiles, showcase achievements, and connect with other players for competitive gaming. Built with a modern MERN architecture, secure authentication, and a responsive gaming-focused user experience.",
+
+        stack: [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Zustand"
+        ],
+
+        features: [
+            "Secure JWT authentication with HTTP-only cookie-based sessions",
+            "Create, edit, and manage detailed gamer profiles",
+            "Custom avatar and banner selection system",
+            "Player discovery and request system",
+            "Gaming statistics, achievements, clips, and team history management",
+            "Protected routes and role-based access control",
+            "Responsive gaming-themed UI optimized for all devices",
+            "Global state management using Zustand",
+            "RESTful API architecture with MongoDB database integration"
+        ],
+
+        github: "https://github.com/nikhilvishwakarma077/gamershub-backend",
+        demo: "https://gamershub-frontend-two.vercel.app/",
+        image: GamersHub,
+        githublink: "https://github.com/nikhilvishwakarma077/gamershub-backend"
+    },
     {
         id: "ecommerce",
         title: "MERN E-Commerce Platform",
@@ -59,6 +93,7 @@ export const fullstackPojects = [
         image: reactImg,
         githublink: "https://github.com/nikhilvishwakarma077/blogger"
     },
+
 ];
 
 export const frontendProjects = [
@@ -76,19 +111,19 @@ export const frontendProjects = [
         image: Headphones,
         githublink: "https://github.com/nikhilvishwakarma077/product-landingpage"
     },
-    {
-        id: "Education",
-        title: "E-School",
-        description: "A Complete Responsive E-learning website using ReactJS + Tailwind CSS + Framer-motion",
-        stack: ["React", "Tailwind CSS", "Framer-motion"],
-        features: [
-            "No features yet",
-        ],
-        github: "https://github.com/nikhilvishwakarma077/e-school",
-        demo: "https://e-school-one.vercel.app/",
-        image: Eschool,
-        githublink: "https://github.com/nikhilvishwakarma077/e-school"
-    },
+    // {
+    //     id: "Education",
+    //     title: "E-School",
+    //     description: "A Complete Responsive E-learning website using ReactJS + Tailwind CSS + Framer-motion",
+    //     stack: ["React", "Tailwind CSS", "Framer-motion"],
+    //     features: [
+    //         "No features yet",
+    //     ],
+    //     github: "https://github.com/nikhilvishwakarma077/e-school",
+    //     demo: "https://e-school-one.vercel.app/",
+    //     image: Eschool,
+    //     githublink: "https://github.com/nikhilvishwakarma077/e-school"
+    // },
     {
         id: "SaaS (Product)",
         title: "FlowSync AI",
@@ -133,5 +168,6 @@ export const frontendProjects = [
         demo: "https://elementum-frontend.vercel.app/",
         image: Elementum,
         githublink: "https://github.com/nikhilvishwakarma077/elementum-frontend"
-    },
+    }
+
 ]

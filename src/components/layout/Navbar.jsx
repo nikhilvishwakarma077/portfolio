@@ -28,7 +28,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1IjTYM0A96oUtfdgqNHzkILryCU0XAdfj/view"
+            href="https://drive.google.com/file/d/17fctRhTMOR5Mx6iPf51zQxW8iV8ARw6P/view"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-lg bg-emerald-400 text-zinc-950 font-medium hover:bg-emerald-300 transition"
@@ -60,7 +60,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1IjTYM0A96oUtfdgqNHzkILryCU0XAdfj/view"
+            href="https://drive.google.com/file/d/17fctRhTMOR5Mx6iPf51zQxW8iV8ARw6P/view"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-lg bg-emerald-400 text-zinc-950 font-medium hover:bg-emerald-300 transition text-center"

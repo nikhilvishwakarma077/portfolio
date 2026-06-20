@@ -39,7 +39,7 @@ export const fullstackPojects = [
         ],
 
         github: "https://github.com/nikhilvishwakarma077/gamershub-backend",
-        demo: "https://gamershub-frontend-two.vercel.app/",
+        demo: "https://gamershub-ffm.vercel.app/",
         image: GamersHub,
         githublink: "https://github.com/nikhilvishwakarma077/gamershub-backend"
     },

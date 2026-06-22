@@ -6,7 +6,7 @@ import Elementum from "../assets/Elementum.png"
 import Electromart from "../assets/Electromart.png"
 import reactImg from "../assets/react.svg"
 import GamersHub from "../assets/GamersHub.png"
-import DevKit from "../assets/Devkit.png"
+import DevKit from "../assets/DevKit.png"
 
 
 

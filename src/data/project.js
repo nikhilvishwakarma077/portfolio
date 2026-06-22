@@ -6,6 +6,7 @@ import Elementum from "../assets/Elementum.png"
 import Electromart from "../assets/Electromart.png"
 import reactImg from "../assets/react.svg"
 import GamersHub from "../assets/GamersHub.png"
+import DevKit from "../assets/Devkit.png"
 
 
 
@@ -97,6 +98,27 @@ export const fullstackPojects = [
 ];
 
 export const frontendProjects = [
+
+    {
+        id: "devkit",
+        title: "DevKit",
+        description: "A modern developer toolkit built with React, Vite, and Tailwind CSS featuring productivity and code utility tools.",
+        stack: ["React", "Vite", "Tailwind CSS", "React Router"],
+        features: [
+            "Password Generator",
+            "UUID Generator",
+            "JSON Formatter",
+            "Word Counter",
+            "Text Case Converter",
+            "Timestamp Converter",
+            "Color Palette",
+            "Responsive Design"
+        ],
+        github: "https://github.com/nikhilvishwakarma077/devkit",
+        demo: "https://devkit-one-lac.vercel.app/",
+        image: DevKit,
+        githublink: "https://github.com/nikhilvishwakarma077/devkit"
+    },
     {
         id: "ecommerce",
         title: "A Product Landingpage",

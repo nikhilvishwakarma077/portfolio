@@ -65,7 +65,7 @@ const ProjectCard = ({ project }) => {
               className="glass-button flex-1 justify-center"
             >
               <AppIcons.github />
-              Source Code
+              Source
             </a>
 
             {demoUrl && demoUrl !== "" && (
@@ -76,7 +76,7 @@ const ProjectCard = ({ project }) => {
                 className="gradient-button flex-1 justify-center"
               >
                 <AppIcons.external />
-                Live Demo
+                Demo
               </a>
             )}
           </div>
@@ -136,7 +136,7 @@ const ProjectCard = ({ project }) => {
                 className="glass-button flex-1 justify-center"
               >
                 <AppIcons.github />
-                Source Code
+                Source
               </a>
 
               {demoUrl && demoUrl !== "" && (
@@ -147,7 +147,7 @@ const ProjectCard = ({ project }) => {
                   className="gradient-button flex-1 justify-center"
                 >
                   <AppIcons.external />
-                  Live Demo
+                  Demo
                 </a>
               )}
             </div>

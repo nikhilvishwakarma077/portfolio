@@ -17,7 +17,7 @@ const Home = () => {
             id="home"
             className="relative overflow-hidden min-h-[calc(100vh-110px)] flex items-center"
         >
-            <div className="section py-20">
+            <div className="section py-10">
                 <div className="grid lg:grid-cols-[1.2fr_.8fr] gap-16 items-center">
                     {/* LEFT */}
                     <div>

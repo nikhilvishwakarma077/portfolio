@@ -18,7 +18,7 @@ const Footer = () => {
   );
 
   return (
-    <footer className="relative mt-28 border-t border-cyan-400/10">
+    <footer className="relative mt-5 border-t border-cyan-400/10">
       <div className="section py-14">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10">
           {/* Left */}

@@ -1,6 +1,5 @@
 import Headphones from "../assets/Headphones.webp";
 import FlowSyncBanner from "../assets/FlowSyncBanner.webp";
-// import Eschool from "../assets/Eschool.webp"
 import PhotoGallery from "../assets/PhotoGallery.webp";
 import Elementum from "../assets/Elementum.webp";
 import Electromart from "../assets/Electromart.webp";

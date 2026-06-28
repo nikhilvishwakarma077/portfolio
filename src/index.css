@@ -1,14 +1,163 @@
+@import url('/font/stylesheet.css');
 @import "tailwindcss";
 
+/* ================= ROOT ================= */
+:root {
+  --background: #030608;
+  --foreground: #f4ffff;
+  --muted: #8ba3ad;
+
+  --primary: #00eaff;
+  --border: rgba(0, 255, 255, 0.12);
+  --border-hover: rgba(0, 255, 255, 0.35);
+}
+
+/* ================= BASE ================= */
 html {
   scroll-behavior: smooth;
-
 }
 
 body {
-  @apply bg-zinc-950 text-zinc-100 antialiased;
+  font-family: 'GFF Latin', sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+/* ================= SCROLLBAR (CLEANED) ================= */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #04090d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 234, 255, 0.2);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 234, 255, 0.35);
+}
+
+/* ================= SELECTION ================= */
+::selection {
+  background: rgba(0, 234, 255, 0.2);
+  color: white;
+}
+
+/* ================= LAYOUT ================= */
+.section {
+  @apply max-w-7xl mx-auto px-6 md:px-10 lg:px-16;
+}
+
+/* ================= TEXT ================= */
+.section-title {
+  @apply text-4xl md:text-6xl font-black uppercase tracking-wider;
+}
+
+.section-subtitle {
+  @apply mt-5 max-w-2xl text-lg leading-8;
+  color: var(--muted);
+}
+
+.glow-text {
+  background: linear-gradient(90deg, #fff, #6ffcff, #00eaff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* ================= GLASS (OPTIMIZED) ================= */
+.glass {
+  background: rgba(10, 20, 28, 0.88);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(8px); /* reduced from heavy blur usage */
+}
+
+/* ================= BORDER HOVER ================= */
+.glow-border {
+  transition: border-color 0.2s ease;
+}
+
+.glow-border:hover {
+  border-color: var(--border-hover);
+}
+
+/* ================= CARD (LESS PAINT COST) ================= */
+.tech-card {
+  background: rgba(10, 20, 28, 0.92);
+  border: 1px solid rgba(0, 255, 255, 0.12);
+
+  clip-path: polygon(
+    18px 0,
+    100% 0,
+    100% calc(100% - 18px),
+    calc(100% - 18px) 100%,
+    0 100%,
+    0 18px
+  );
+
+  /* IMPORTANT: removed will-change (it was overused) */
+}
+
+/* ================= BUTTONS ================= */
+.gradient-button {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3 font-semibold uppercase tracking-wider transition;
+  clip-path: polygon(
+    14px 0,
+    100% 0,
+    100% calc(100% - 14px),
+    calc(100% - 14px) 100%,
+    0 100%,
+    0 14px
+  );
+
+  background: linear-gradient(135deg, #00d9ff, #00b2d6);
+  color: #021014;
+}
+
+.gradient-button:hover {
+  transform: translateY(-1px);
+}
+
+.glass-button {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3 font-medium uppercase tracking-wider transition;
+
+  clip-path: polygon(
+    14px 0,
+    100% 0,
+    100% calc(100% - 14px),
+    calc(100% - 14px) 100%,
+    0 100%,
+    0 14px
+  );
+
+  border: 1px solid rgba(0, 255, 255, 0.18);
+  background: rgba(0, 255, 255, 0.03);
+  color: white;
+}
+
+.glass-button:hover {
+  border-color: rgba(0, 255, 255, 0.35);
+  background: rgba(0, 255, 255, 0.06);
+}
+
+/* ================= CARD HOVER (SIMPLIFIED) ================= */
+.card-hover {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 255, 255, 0.25);
+}
+
+/* ================= IMAGE OPTIMIZATION (FIXED) ================= */
+img {
+  display: block;
+  max-width: 100%;
 }

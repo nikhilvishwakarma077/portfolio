@@ -6,9 +6,10 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import { fullstackPojects } from "./data/project.js"
 import { frontendProjects } from "./data/project.js"
+import Tools from "./pages/Tools.jsx";
 
 
-const App = () => {
+const App = () => {  
   return (
     <>
       <Navbar />
@@ -19,12 +20,16 @@ const App = () => {
         </section>
 
         <section id="projects">
-          <Projects projects={fullstackPojects} title={"Full Stack Projects"} />
-          <Projects projects={frontendProjects} title={"Frontend Projects"} />
+          <Projects projects={fullstackPojects} title={"Full Stack"} />
+          <Projects projects={frontendProjects} title={"Frontend"} />
         </section>
 
         <section id="about">
           <About />
+        </section>
+
+        <section id="tools">
+          <Tools />
         </section>
 
         <section id="contact">

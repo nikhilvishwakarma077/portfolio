@@ -1,12 +1,14 @@
-import Headphones from "../assets/Headphones.png"
-import FlowSyncBanner from "../assets/FlowSyncBanner.png"
-// import Eschool from "../assets/Eschool.png"
-import PhotoGallery from "../assets/PhotoGallery.png"
-import Elementum from "../assets/Elementum.png"
-import Electromart from "../assets/Electromart.png"
-import reactImg from "../assets/react.svg"
-import GamersHub from "../assets/GamersHub.png"
-import DevKit from "../assets/DevKit.png"
+import Headphones from "../assets/Headphones.webp";
+import FlowSyncBanner from "../assets/FlowSyncBanner.webp";
+// import Eschool from "../assets/Eschool.webp"
+import PhotoGallery from "../assets/PhotoGallery.webp";
+import Elementum from "../assets/Elementum.webp";
+import Electromart from "../assets/Electromart.webp";
+import reactImg from "../assets/react.svg";
+import GamersHub from "../assets/GamersHub.webp";
+import DevKit from "../assets/Devkit.webp" ;
+
+
 
 
 

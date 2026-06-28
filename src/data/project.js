@@ -5,7 +5,7 @@ import Elementum from "../assets/Elementum.webp";
 import Electromart from "../assets/Electromart.webp";
 import reactImg from "../assets/react.svg";
 import GamersHub from "../assets/GamersHub.webp";
-import DevKit from "../assets/Devkit.webp" ;
+import DevKit from "../assets/DevKit.webp";
 
 
 

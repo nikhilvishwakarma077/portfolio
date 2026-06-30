@@ -128,7 +128,7 @@ Nikhil Vishwakarma
 
 [LinkedIn](https://www.linkedin.com/in/nikhil-vishwakarma-874776376)
 
-Email  nikhilvishwakarma7707@gmail.com
+nikhilvishwakarma7707@gmail.com
 
 ---
 

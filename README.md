@@ -1,12 +1,147 @@
-# React + Vite
+# 🚀 Nikhil Vishwakarma — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, responsive, production-ready developer portfolio built to showcase my projects, technical skills, and software engineering journey.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **Portfolio:** https://portfolio-nikhil077.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Preview
+
+![Home page](./public/readmeImages/hero.png)
+
+---
+
+## 📖 About
+
+This portfolio serves as my central hub for showcasing software development projects, technical skills, and professional experience.
+
+It has been designed with a strong emphasis on performance, clean UI, accessibility, responsive design, and maintainable code architecture.
+
+The goal of this project is not only to present my work but also to demonstrate production-quality frontend development practices.
+
+---
+
+# ✨ Features
+
+- Modern responsive UI
+- Mobile-first design
+- Dark theme
+- Interactive project showcase
+- Skills & technology section
+- Contact section
+- Resume 
+- Optimized images
+- Reusable React components
+- Clean folder structure
+- Fast Vite build
+- Deployed on Vercel
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+
+### Deployment
+
+- Vercel
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 🏗 Architecture Overview
+
+```
+src
+┣ 📂assets
+┣ 📂components
+┃ ┣ 📂icons
+┃ ┣ 📂layout
+┃ ┗ 📂project
+┣ 📂data
+┣ 📂pages
+┣ 📜App.jsx
+┣ 📜index.css
+┗ 📜main.jsx
+
+```
+
+The application follows a component-based architecture where reusable UI components are separated from page-level components. Static project data is centralized to improve maintainability and scalability.
+
+---
+
+# 📸 Screenshots
+
+## Home
+
+![Home page](./public/readmeImages/hero.png)
+
+---
+
+## About
+
+![Home page](./public/readmeImages/about.png)
+
+---
+
+## Projects
+
+![Home page](./public/readmeImages/projects.png)
+
+---
+
+
+## Contact
+
+![Home page](./public/readmeImages/contact.png)
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+Nikhil Vishwakarma
+
+Portfolio
+
+https://portfolio-nikhil077.vercel.app/
+
+
+GitHub
+
+https://github.com/nikhilvishwakarma077
+
+
+LinkedIn
+
+https://www.linkedin.com/in/nikhil-vishwakarma-874776376
+
+
+Email
+
+nikhilvishwakarma7707@gmail.com
+
+
+---
+
+⭐ If you like this project, consider giving it a star.

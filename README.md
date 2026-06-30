@@ -122,25 +122,13 @@ This project is licensed under the MIT License.
 
 Nikhil Vishwakarma
 
-Portfolio
+[Portfolio](https://portfolio-nikhil077.vercel.app/)
 
-https://portfolio-nikhil077.vercel.app/
+[GitHub](https://github.com/nikhilvishwakarma077)
 
+[LinkedIn](https://www.linkedin.com/in/nikhil-vishwakarma-874776376)
 
-GitHub
-
-https://github.com/nikhilvishwakarma077
-
-
-LinkedIn
-
-https://www.linkedin.com/in/nikhil-vishwakarma-874776376
-
-
-Email
-
-nikhilvishwakarma7707@gmail.com
-
+Email  nikhilvishwakarma7707@gmail.com
 
 ---
 
